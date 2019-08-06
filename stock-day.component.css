@@ -1,0 +1,7 @@
+.stock-day-container .prev-btn, .stock-day-container .next-btn {
+    width: 100%;
+}
+
+.stock-day-container .row div {
+    text-align: center;
+}

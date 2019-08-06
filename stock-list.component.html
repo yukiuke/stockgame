@@ -1,0 +1,10 @@
+<app-stock-day (stockDayChanged)="calculateNewStocks($event)"></app-stock-day>
+
+<section class='stocks-list-container container'>
+    <div class='stock-container row'
+        *ngFor="let stock of currentStocks">
+        <div class='col-4'>{{ stock.symbol }}</div>
+        <div class='col-4'>{{ stock.name }}</div>
+        <div class='col-4'>{{ stock.price }}</div>
+    </div>
+</section>
